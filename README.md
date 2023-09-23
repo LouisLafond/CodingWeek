@@ -1,8 +1,11 @@
 # Coding Week G9
 
-# Vidéo de présentation
-
-https://youtu.be/sAErV-kfg3c
+# Présentation du sujet 
+" Vous devez développer une application qui permet de favoriser l’apprentissage en
+utilisant des flashcards (ou cartes questions-réponses numériques). Cette application propose
+deux modes d’utilisation : le mode “création” et le mode “apprentissage”. Le mode création permet
+de créer des piles de cartes dont une face contient une question et l’autre face la réponse à cette
+question. Le mode apprentissage permet de réviser le contenu des cartes."
 
 # Lancement à partir du .jar
 
@@ -11,7 +14,6 @@ Il suffira ensuite de vérifier que la variable d'environnement JAVAFX_HOME soit
     
     java --module-path ${JAVAFX_HOME}/lib --add-modules=javafx.controls,javafx.fxml -jar codingweek-09.jar
 
-Profitez bien !
 
 # Lancement via le projet Gradle
 
@@ -96,6 +98,6 @@ Nous sommes parvenus à mettre en place notre application, il nous reste encore 
 Aujourd'hui, nous devons finir les détails de notre application: il reste des fonctionnalitées à améliorer, quelques bugs à corriger... Nous nous réservons l'après-midi pour la tester le plus complétement possible, et mettre en place nos messages d'erreurs et d'alertes.
 
 ### Resultat jour 4
-Après un sprint final, nous sommes parvenus à livrer l'application fonctionnelle (un peu en retard), testée, dans les temps.
+Après un sprint final, nous sommes parvenus à livrer l'application fonctionnelle, testée par nos soins, dans les temps.
 
 
